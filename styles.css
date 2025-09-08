@@ -107,4 +107,24 @@ footer {
     font-size: 1rem;
     letter-spacing: 1px;
     box-shadow: 0 -2px 10px rgba(78,84,200,0.09);
+}#big-five {
+  text-align: center;
+  padding: 40px;
 }
+
+#big-five button {
+  margin: 10px;
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#big-five button:hover {
+  background-color: #555;
+}
+
