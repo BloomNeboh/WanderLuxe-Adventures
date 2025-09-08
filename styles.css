@@ -6,6 +6,29 @@ body {
     background: #f8fafd;
     color: #2c3e50;
 }
+#destinations, #map, #newsletter {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.destination img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+#newsletter input {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+}
+#newsletter button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
 
 header {
     background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
