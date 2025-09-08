@@ -56,6 +56,44 @@
     alert(`You clicked on ${animal}!`);
     // Later we can replace this with a modal, redirect, or animation
   }
+</script><script>
+  const animalData = {
+    lion: {
+      name: "Lion",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
+      description: "The lion is known as the king of the jungle. It symbolizes strength and majesty."
+    },
+    elephant: {
+      name: "Elephant",
+      image: "https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg",
+      description: "Elephants are the largest land animals, famous for their intelligence and memory."
+    },
+    leopard: {
+      name: "Leopard",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Leopard_africa.jpg",
+      description: "Leopards are stealthy hunters with beautiful spotted coats and incredible agility."
+    },
+    buffalo: {
+      name: "Buffalo",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/African_Buffalo.jpg",
+      description: "Buffaloes are powerful and unpredictable, often seen in large herds."
+    },
+    rhino: {
+      name: "Rhinoceros",
+      image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/White_Rhinoceros.jpg",
+      description: "Rhinos are ancient-looking creatures with thick skin and impressive horns."
+    }
+  };
+
+  function showInfo(animal) {
+    const data = animalData[animal];
+    document.getElementById("animal-name").textContent = data.name;
+    document.getElementById("animal-image").src = data.image;
+    document.getElementById("animal-image").alt = data.name;
+    document.getElementById("animal-description").textContent = data.description;
+    document.getElementById("info-card").style.display = "block";
+  }
 </script>
+
 
 </html>
