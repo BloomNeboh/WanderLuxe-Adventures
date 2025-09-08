@@ -42,5 +42,20 @@
     <footer>
         <p>&copy; 2025 Wanderluxe Adventures. All rights reserved.</p>
     </footer>
-</body>
+</body><section id="big-five">
+  <h2>Explore the Big Five</h2>
+  <button onclick="handleClick('lion')">Lion</button>
+  <button onclick="handleClick('elephant')">Elephant</button>
+  <button onclick="handleClick('leopard')">Leopard</button>
+  <button onclick="handleClick('buffalo')">Buffalo</button>
+  <button onclick="handleClick('rhino')">Rhino</button>
+</section>
+
+<script>
+  function handleClick(animal) {
+    alert(`You clicked on ${animal}!`);
+    // Later we can replace this with a modal, redirect, or animation
+  }
+</script>
+
 </html>
