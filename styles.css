@@ -1,6 +1,16 @@
 /* styles.css for Wanderluxe Adventures */
 
-body {
+body {.destination img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.destination {
+  margin: 40px auto;
+  text-align: center;
+}
+
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #f8fafd;
